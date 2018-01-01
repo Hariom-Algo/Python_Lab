@@ -1,0 +1,40 @@
+Basic Installation Step
+http://www.leouieda.com/blog/scipy-on-android.html
+
+Laptop/PC/Mac user
+
+Windows User
+1.Download Anaconda Python 3.6 from below link
+https://www.anaconda.com/download/#windows
+
+Linux User
+1.Download Anaconda Python 3.6 from below link
+https://www.anaconda.com/download/#linux
+
+
+MacOS
+1.Download Anaconda Python 3.6 from below link
+https://www.anaconda.com/download/#macos
+
+
+For Smartphone and Iphone User
+
+Android Phone
+
+1.Install Termux from Play Store
+2.Start Termux
+3.Run the following Command 
+$ apt install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
+$ apt install libzmq libzmq-dev
+$ LDFLAGS=" -lm -lcompiler_rt" pip install jupyter
+$ jupyter notebook
+
+(Optional Step , we will discuss this during the workshop if not clear)
+The server won't automatically open a browser but you can copy the URL from the output and paste it into Chrome or Firefox.
+
+
+Iphone User
+
+1)Install Pythonista
+2)Comes with inbuilt python
+
